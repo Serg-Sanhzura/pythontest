@@ -7,7 +7,7 @@ s = 'Spam'
 # print(s[2:])
 # print(2 * s[0:3], s[-2])
 # print('Hello world')
-d = {"name": {'first': 'Jonn', 'last': 'Smith'},
+d = {"name": {'first': 'John', 'last': 'Smith'},
      'jobs': ['dev', 'mng'],
      "age": 39}
-print(d)
+print(d["name"])
